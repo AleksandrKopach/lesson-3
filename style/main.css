@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Style section-features */
+
+.main-container {
+    padding: 107px 0;
+}
+
+.title-black {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight:400;
+    color: #212121;
+}
+
+.subtitle-title-black {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+   
+}
+
+.line-orange {
+    width: 64px;
+    height: 2px;
+    border: none; /* Устанавливает стиль границы вокруг элемента*/
+    background: #FF8B38;
+    margin: 30px auto;
+}
+
+/* Style columns  */
+
+.columns {
+    padding: 80px 0 107px;
+    font-size: 0;
+}
+
+.column {
+    display: inline-block;
+    width: 360px;
+    margin: 0 18px;
+}
+
+h2 {
+    margin:29px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+
+/* icon columns */
+
+.icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    border: 2px solid #FF8B38;
+    border-radius: 50%; /* Окружность */
+}
+
+.icon-lamp {
+    background: url(../img/lamp.png) no-repeat center center;
+}
+
+.icon-keyboard {
+    background: url(../img/keyboard.png) no-repeat center center;
+}
+
+.icon-lightning {
+    background: url(../img/lightning.png) no-repeat center center;
+}
+
+
+/* Section download */
+
+.title-white {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight:400;
+    color: #FFFFFF;
+}
+
+.line-white {
+    width: 64px;
+    height: 2px;
+    border: none;
+    background: #FFFFFF;
+    margin: 26px auto;
+}
+
+.subtitle-title-white {
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .8;  /*Прозрачность элемента*/
+}
+
+.section-download {
+    padding: 76px 0 63px;
+    /*linear-gradient-плавный переход от одного цвета к другому
+      rgba-полупрозрачный цвет*/
+    background: linear-gradient( to right,rgba(0, 0, 0, .8),rgba(0, 0, 0, .8)), 
+                url(../img/background.png) no-repeat center center;  
+    background-size: cover;  /*Масштабирует фоновое изображение*/
+}
+
+.section-download button {
+    margin-top: 33px;
+    padding: 15px 33px;
+    font-size: 15px;
+    color:#FFFFFF;
+    border:2px solid #FFFFFF; /* Параметры границы(толщина,стиль,цвет) */
+    background:transparent;     /*Прозрачный фон */
+    font-weight: 600;
+
+
+}
+
+/* Footer*/
+
+.footer {
+    background: #000;
+    padding: 38px 0 15px;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li a {
+    display: block;
+    width: 18px;
+    height: 23px;
+    margin: 0 11px;
+}
+
+.footer p {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #ffffff;
+    opacity: .5;
+}
