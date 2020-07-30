@@ -6,7 +6,7 @@
 
 .wrapper {
     width: 100%;
-    max-width: 1400px;
+    margin: 0 auto;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
@@ -19,8 +19,9 @@
 
 .title-black {
     font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
     font-size: 36px;
-    font-weight:400;
+    font-weight: 400;
     color: #212121;
 }
 
@@ -28,7 +29,6 @@
     font-size: 14px;
     font-weight: 400;
     color: #86878B;
-   
 }
 
 .line-orange {
@@ -53,7 +53,7 @@
 }
 
 h2 {
-    margin:29px 0;
+    margin: 29px 0;
     font-size: 20px;
     font-weight: 700;
     color: #333333;
@@ -92,8 +92,9 @@ p {
 
 .title-white {
     font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
     font-size: 36px;
-    font-weight:400;
+    font-weight: 400;
     color: #FFFFFF;
 }
 
@@ -126,12 +127,10 @@ p {
     margin-top: 33px;
     padding: 15px 33px;
     font-size: 15px;
-    color:#FFFFFF;
-    border:2px solid #FFFFFF; /* Параметры границы(толщина,стиль,цвет) */
-    background:transparent;     /*Прозрачный фон */
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF; /* Параметры границы(толщина,стиль,цвет) */
+    background: transparent;     /*Прозрачный фон */
     font-weight: 600;
-
-
 }
 
 /* Footer*/
